@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mo 31 Okt 2011 11:08:14 CET
+EESchema Schematic File Version 2  date Mi 21 Nov 2012 00:04:35 CET
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -32,14 +32,14 @@ LIBS:valves
 LIBS:dxksq-hacked
 LIBS:pca9685
 LIBS:adm485
-LIBS:RGBController16Channel-cache
+LIBS:Alpengluehn-cache
 EELAYER 25  0
 EELAYER END
 $Descr A3 16535 11700
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "31 oct 2011"
+Date "20 nov 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -1713,8 +1713,6 @@ NoConn ~ 4400 7350
 NoConn ~ 4400 7550
 Text Label 4750 6150 0    60   ~ 0
 SDA
-Text Label 7400 6700 0    60   ~ 0
-SCL
 $Comp
 L +5V #PWR51
 U 1 1 4E52D3C5
